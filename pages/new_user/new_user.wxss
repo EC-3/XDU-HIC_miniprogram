@@ -1,0 +1,28 @@
+/**index.wxss**/
+.bg{
+  width: 100%;
+}
+
+.title{
+  left:15%;
+  position: absolute;
+  font-size: 36px;
+  color: #d1777a;
+}
+.container{
+  position: absolute;
+  top:0;
+  left:0;
+  font-size: 20px;
+}
+
+.save{
+  position: absolute;
+  width:10%;
+  right: 2%;
+  bottom: 5%;
+  background-color:#c55f62;
+  color: #ffffff;
+  border-radius: 100px;
+  box-shadow: 0 0 5;
+}

@@ -1,0 +1,41 @@
+<image class="bg" src="../../img/bg.jpg" mode="widthFix"></image>
+
+<view class="introduction">
+  <button style="width: 600rpx ;height:100rpx;" class="intro-item">
+    <view class="text">关于华创</view>
+    <image class="intro-img" src="../../img/logo.png" mode="widthFix"></image>
+  </button>
+
+  <button style="width: 600rpx ;height:100rpx;" class="intro-item">
+    <view class="text">花粉部</view>
+    <image class="intro-img" src="../../img/p_logo.png" mode="widthFix"></image>
+  </button>
+
+  <button style="width: 600rpx ;height:100rpx;" class="intro-item">
+    <view class="text">技术部</view>
+    <image class="intro-img" src="../../img/t_logo.png" mode="widthFix"></image>
+  </button>
+
+  <button style="width: 600rpx ;height:100rpx;" class="intro-item">
+    <view class="text">面试地点</view>
+    <image class="intro-img" src="../../img/logo.png" mode="widthFix"></image>
+  </button>
+
+  <button style="width: 600rpx ;height:100rpx;" class="intro-item">
+    <view class="text">了解更多</view>
+    <image class="intro-img" src="../../img/logo.png" mode="widthFix"></image>
+  </button>
+</view>
+
+
+<view class="guide">
+  <button class="guide-item" bind:tap="btn1">
+    <image src="{{imageHome}}" mode="widthFix"></image>
+  </button>
+  <button class="guide-item.ZZZZZ." bind:tap="btn2">
+    <image src="{{imageApply}}" mode="widthFix"></image>
+  </button>
+  <button class="guide-item" bind:tap="btn3">
+    <image src="{{imageUser}}" mode="widthFix"></image>
+  </button>
+</view>

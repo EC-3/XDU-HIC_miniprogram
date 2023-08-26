@@ -1,0 +1,62 @@
+page{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bg{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size:cover;
+  position: relative;
+}
+
+.introduction{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  margin: 60rpx;
+}
+
+.guide{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  padding: 0%;
+  justify-content: space-between;
+  background-color:transparent;
+  border: none;
+  width: 100%;
+  height: 10%;
+}
+.guide-item image{
+  width: 45px;
+  line-height: 1;
+  padding-bottom: 10rpx;
+  margin-top: 10rpx;
+  justify-content: center;
+  background-color:transparent;
+}
+
+.guide-item{
+  background-color: white;
+}
+
+
+.intro-item{
+  margin-top: 15%;
+  width:50vw;
+  border-radius: 24rpx;
+  background-color: orchid;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+.intro-img{
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 20%;
+}

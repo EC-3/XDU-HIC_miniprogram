@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/new_user/new_user",
+    "pages/application/application",
+    "pages/user/user",
+    "pages/home/home",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "HIC第四区",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

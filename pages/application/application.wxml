@@ -1,0 +1,30 @@
+<image class="bg" src="../../img/bg.jpg" mode="widthFix"></image>
+
+
+<view class="guide">
+  <button class="guide-item" bind:tap="btn1">
+    <image src="{{imageHome}}" mode="widthFix"></image>
+  </button>
+  <button class="guide-item" bind:tap="btn2">
+    <image src="{{imageApply}}" mode="widthFix"></image>
+  </button>
+  <button class="guide-item" bind:tap="btn3">
+    <image src="{{imageUser}}" mode="widthFix"></image>
+  </button>
+</view>
+
+<view class="container">
+  <view class="Tech">
+
+    <view class="group-list">
+      <block wx:for="{{groups}}" wx:key="id">
+        <view class="group" data-id="{{item.id}}">
+          <image src="{{itemimage}}" mode="aspectFit"></image>
+          <text>{{itemname}}</text>
+          <button bindtap="addToCart" data-id="{{item.id}}">选择</button>
+        </view>
+      </block>
+    </view>
+
+  </view>
+</view>

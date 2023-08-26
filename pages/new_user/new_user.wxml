@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="title">让我们认识一下你！</view>
+<image class="bg" mode="widthFix" src="../../img/bg.jpg"></image>
+
+<view class="container">
+  <view class="label">姓名：</view>
+  <input class="input" name="name" />
+  <view class="label">性别：</view>
+  <input class="input" name="gender" />
+  <view class="label">年级：</view>
+  <input class="input" name="grade" />
+  <view class="label">学号：</view>
+  <input class="input" name="stuNumber" />
+  <view class="label">生辰：</view>
+  <input class="input" name="birth" />
+  <view class="label">专业/大类：</view>
+  <input class="input" name="majoy" />
+  <view class="label">电话号码：</view>
+  <input class="input" name="phone" />
+  <view class="label">高考数学卷种：</view>
+  <input class="input" name="type" />
+  <view class="label">数学分数：</view>
+  <input class="input" name="score" />
+  <view class="label">个人介绍：</view>
+  <input class="input" name="introduction" />
+  <!-- 其他表单元素 -->
+</view>
+
+<button class="save" bind:tap="onTap" size="default">保存</button>

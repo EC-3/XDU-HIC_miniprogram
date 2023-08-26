@@ -1,0 +1,5 @@
+<view>
+  <image class="cover" mode="widthFix" src="{{imageSrc1}}"></image>
+  <image class="logo" mode="widthFix" src="{{imageSrc2}}"></image>
+  <button id="button1" class="login" bind:tap="onLogin">加入我们</button>
+</view>
