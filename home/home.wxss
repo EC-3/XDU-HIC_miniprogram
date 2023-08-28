@@ -1,0 +1,29 @@
+/* pages/home/home.wxss */
+.page{
+	display: flex;
+    flex-direction: column;
+	background-color: hsl(330, 17%, 95%);
+
+
+}
+.form-item{
+	margin-left: 50rpx;
+	margin-right: 50rpx;
+	margin-top: 30rpx;
+	margin-bottom: 30rpx;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20rpx;
+	border-bottom: 1rpx solid #ccc;
+  }
+  .title {
+	font-size: 50rpx;
+	font-weight: 500;
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+	text-align: center;
+
+  }
+  
+  
+  
